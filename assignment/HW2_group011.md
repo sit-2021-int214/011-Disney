@@ -28,11 +28,16 @@ mean(survey$Age)
 ```
 
 
-3.) Descriptive statistics Statement
+3.) From survey, interquartile range ‘ s age is 2.5 .
 ```{R}
 <<<<<<< HEAD
-Code here
+IQR(survey$Age) 
 ```
+คำอธิบาย
+```{R}
+หาค่าพิสัยระหว่างควอไทล์โดยมีสูตรคำนวณว่า Q3 - Q1
+```
+
 5.) From survey, of 237 people, 189 had never smoked, and one of them did not provide information.
 ```{R}
 Mode(survey$Smoke, na.rm = TRUE)
