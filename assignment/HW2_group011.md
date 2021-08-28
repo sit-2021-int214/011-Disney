@@ -27,7 +27,14 @@ mean(survey$Age)
 ```{R}
 IQR(survey$Age)
 ```
-
+5.) From survey, of 237 people, 189 had never smoked, and one of them did not provide information.
+```{R}
+Mode(survey$Smoke, na.rm = TRUE)
+summary(factor(survey$Smoke))
+```
+คำอธิบาย
+```{R}
+หาความถี่ของคนที่ไม่เคยสูบบุหรี่เลยโดยใช้คำสั่ง Mode และใช้คำสั่ง summary แสดงข้อมูลสรุป Smoke จาก Data set: survey
 
 ### Team: K-on
 | No. | Name              | Student ID   |
