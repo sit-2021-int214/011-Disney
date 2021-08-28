@@ -7,7 +7,7 @@ Explore 2 dataset that given then finding descriptive statistics and summary res
 ```{R}
 Code here
 ```
-2.) หาค่าเฉลี่ยจากความสูงของนักศึกษา
+2.) หาค่าเฉลี่ยจากอายุของนักศึกษา
 ```{R}
 mean(survey$Age)
 ```
