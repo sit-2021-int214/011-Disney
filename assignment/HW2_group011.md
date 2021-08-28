@@ -39,7 +39,7 @@ IQR(survey$Age)
 
 4.) From survey, the range Age is 16.75 73.00
 ```{R}
-
+range(survey$Age)
 ```
 คำอธิบาย
 ```{R}
