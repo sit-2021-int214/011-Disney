@@ -42,8 +42,6 @@ summary(factor(survey$Smoke))
 ```{R}
 หาความถี่ของคนที่ไม่เคยสูบบุหรี่เลยโดยใช้คำสั่ง Mode และใช้คำสั่ง summary แสดงข้อมูลสรุป Smoke จาก Data set: survey
 ```
-
-<<<<<<< HEAD
 Team: K-on
     1.นางสาว จริยาวดี แถมศรี        StudentID: 63130500008
     2.นางสาว จินต์จุฑา ธนศุภวิมล     StudentID: 63130500010
