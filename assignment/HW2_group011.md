@@ -25,12 +25,12 @@ Code here
 ```
 5.) From survey, of 237 people, 189 had never smoked, and one of them did not provide information.
 ```{R}
-Smoker <- factor(survey$Smoke)
-summary(Smoker) 
 Mode(survey$Smoke, na.rm = TRUE)
+summary(factor(survey$Smoke))
 ```
 คำอธิบาย
 ```{R}
+หาความถี่ของคนที่ไม่เคยสูบบุหรี่เลย และแสดงข้อมูลสรุป Smoke จาก Data set: survey 
 ```
 
 ### Team: K-on
