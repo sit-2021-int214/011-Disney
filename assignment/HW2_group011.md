@@ -37,6 +37,15 @@ IQR(survey$Age)
 หาค่าพิสัยระหว่างควอไทล์โดยใช้คำสั่ง IQR คำนวณ ซึ่งมีสูตรคำนวณได้ว่า Q3 - Q1 
 ```
 
+4.) 
+```{R}
+
+```
+คำอธิบาย
+```{R}
+
+```
+
 5.) From survey, of 237 people, 189 had never smoked, and one of them did not provide information.
 ```{R}
 Mode(survey$Smoke, na.rm = TRUE)
