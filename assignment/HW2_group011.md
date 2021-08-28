@@ -40,20 +40,9 @@ summary(factor(survey$Smoke))
 ```
 คำอธิบาย
 ```{R}
-หาความถี่ของคนที่ไม่เคยสูบบุหรี่เลยโดยใช้คำสั่ง Mode และใช้คำสั่ง summaryแสดงข้อมูลสรุป Smoke จาก Data set: survey 
-=======
-IQR(survey$Age)
->>>>>>> 222453b707db3eb14ef73df380886ddf9366bcdd
-```
-5.) From survey, of 237 people, 189 had never smoked, and one of them did not provide information.
-```{R}
-Mode(survey$Smoke, na.rm = TRUE)
-summary(factor(survey$Smoke))
-```
-คำอธิบาย
-```{R}
 หาความถี่ของคนที่ไม่เคยสูบบุหรี่เลยโดยใช้คำสั่ง Mode และใช้คำสั่ง summary แสดงข้อมูลสรุป Smoke จาก Data set: survey
 ```
+
 ### Team: K-on
 | No. | Name              | Student ID   |
 |1.   |นางสาว จริยาวดี แถมศรี| StudentID: 63130500008|
