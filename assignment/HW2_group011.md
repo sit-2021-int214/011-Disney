@@ -22,6 +22,11 @@ sum(cats$Sex == 'M') #97
 ```{R}
 mean(survey$Age) 
 ```
+คำอธิบาย
+```{R}
+
+```
+
 
 3.) Descriptive statistics Statement
 ```{R}
