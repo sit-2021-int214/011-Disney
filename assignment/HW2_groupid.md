@@ -8,9 +8,9 @@ Explore 2 dataset that given then finding descriptive statistics and summary res
 Code here
 ```
 
-2.) Descriptive statistics Statement
+2.) หาค่าเฉลี่ยจากความสูงของนักศึกษา
 ```{R}
-Code here
+mean(survey$Age)
 ```
 
 
