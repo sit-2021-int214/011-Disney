@@ -5,14 +5,22 @@ Explore 2 dataset that given then finding descriptive statistics and summary res
 
 1.) หาค่า bwt สูงสุดของแมวเพศเมียและเพศผู้และจำนวนของแมวทั้งสองเพศ
 ```{R}
-Code here
+max(cats$Bwt[cats$Sex == 'F']) #3 
+max(cats$Bwt[cats$Sex == 'M']) #3.9
+sum(cats$Sex == 'F') #47
+sum(cats$Sex == 'M') #97
 ```
+คำอธิบาย
+```{R}
+```
+
+
 2.) หาค่าเฉลี่ยจากอายุของนักศึกษา
 ```{R}
 mean(survey$Age)
 ```
 
-2.) Descriptive statistics Statement
+3.) Descriptive statistics Statement
 ```{R}
 Code here
 ```
