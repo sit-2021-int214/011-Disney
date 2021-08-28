@@ -20,7 +20,7 @@ sum(cats$Sex == 'M') #97
 
 2.) From survey , the mean Age is 20.37
 ```{R}
-mean(survey$Age)
+mean(survey$Age) 
 ```
 
 3.) Descriptive statistics Statement
