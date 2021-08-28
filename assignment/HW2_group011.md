@@ -18,10 +18,15 @@ sum(cats$Sex == 'M') #97
 ```
 
 
-2.) หาค่าเฉลี่ยจากอายุของนักศึกษา
+2.) From survey , the mean Age is 20.37
 ```{R}
-mean(survey$Age)
+mean(survey$Age) 
 ```
+คำอธิบาย
+```{R}
+หาค่าเฉลี่ยของอายุ จากตาราง survey โดยใช้คำสั่ง mean
+```
+
 
 3.) Descriptive statistics Statement
 ```{R}
@@ -40,11 +45,17 @@ summary(factor(survey$Smoke))
 IQR(survey$Age)
 >>>>>>> 222453b707db3eb14ef73df380886ddf9366bcdd
 ```
-
-
+5.) From survey, of 237 people, 189 had never smoked, and one of them did not provide information.
+```{R}
+Mode(survey$Smoke, na.rm = TRUE)
+summary(factor(survey$Smoke))
+```
+คำอธิบาย
+```{R}
+หาความถี่ของคนที่ไม่เคยสูบบุหรี่เลยโดยใช้คำสั่ง Mode และใช้คำสั่ง summary แสดงข้อมูลสรุป Smoke จาก Data set: survey
+```
 ### Team: K-on
 | No. | Name              | Student ID   |
-|:---:|-------------------|--------------|
 |1.   |นางสาว จริยาวดี แถมศรี| StudentID: 63130500008|
 |2.   |นางสาว จินต์จุฑา ธนศุภวิมล |StudentID: 63130500010|
 |3.   |นางสาว ณัฐวรา บุญยังกองแก้ว| StudentID: 63130500035|
