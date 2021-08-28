@@ -40,7 +40,7 @@ summary(factor(survey$Smoke))
 ```
 คำอธิบาย
 ```{R}
-หาความถี่ของคนที่ไม่เคยสูบบุหรี่เลยโดยใช้คำสั่ง Mode และแสดงข้อมูลสรุป Smoke จาก Data set: survey ใช้คำสั่ง summary
+หาความถี่ของคนที่ไม่เคยสูบบุหรี่เลยโดยใช้คำสั่ง Mode และใช้คำสั่ง summaryแสดงข้อมูลสรุป Smoke จาก Data set: survey 
 =======
 IQR(survey$Age)
 >>>>>>> 222453b707db3eb14ef73df380886ddf9366bcdd
