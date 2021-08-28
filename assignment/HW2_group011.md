@@ -30,7 +30,6 @@ mean(survey$Age)
 
 3.) From survey, interquartile range ‘ s age is 2.5 .
 ```{R}
-<<<<<<< HEAD
 IQR(survey$Age) 
 ```
 คำอธิบาย
