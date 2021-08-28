@@ -54,7 +54,7 @@ summary(factor(survey$Smoke))
 ```
 คำอธิบาย
 ```{R}
-หาความถี่ของคนที่ไม่เคยสูบบุหรี่เลยโดยใช้คำสั่ง Mode และใช้คำสั่ง summary แสดงข้อมูลสรุป Smoke จาก Data set: survey
+ใช้คำสั่ง Mode ในหาความถี่ของคนที่ไม่เคยสูบบุหรี่เลย และใช้คำสั่ง summary แสดงข้อมูลสรุป Smoke จาก Data set: survey
 ```
 
 ### Team: K-on
