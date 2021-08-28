@@ -25,7 +25,7 @@ mean(survey$Age)
 
 3.) Descriptive statistics Statement
 ```{R}
-Code here
+IQR(survey$Age)
 ```
 
 
