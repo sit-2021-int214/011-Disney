@@ -44,7 +44,6 @@ range(survey$Age)
 คำอธิบาย
 ```{R}
 Rang เป็นการหาค่าขอบเขตที่น้อยที่สุดของของข้อมูลทั้งหมด บอกได้ถึงขนาดช่วงที่เล็กที่สุด ซึ่งก็ได้จากการนำค่ามากที่สุดและค่าน้อยที่สุด
-
 ```
 
 5.) From survey, of 237 people, 189 had never smoked, and one of them did not provide information.
