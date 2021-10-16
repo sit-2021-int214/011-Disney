@@ -53,7 +53,7 @@ This dataset is all about Disney movies with their release dates, genre, rating,
 ##  😮 Resources
 ### 🔗 Important Files in Repository
 
-- [code_eda.R](./Term_assignment_[Group]/Midterm/code_eda.md) : Exploratory Data Analysis
+- [code_eda.md](./Term_assignment_[Group]/Midterm/code_eda.md) : Exploratory Data Analysis
 - [Disney_original.csv](./Term_assignment_[Group]/Midterm/Disney_original.csv): Original Dataset
 - [Disney_clean.csv](./Term_assignment_[Group]/Midterm/Disney_clean.csv): Clean Dataset
 
