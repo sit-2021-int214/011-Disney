@@ -1,5 +1,5 @@
 #Disney Dataset
-# -  [Dataset from](./011-Disney/Term_assignment_[Group]/Midterm/Disney_clean.csv) : Dataset from
+# -  [./Disney_clean.csv) : Dataset from
 
 #Steps
 #1. กำหนดหัวข้อที่จะทำ
