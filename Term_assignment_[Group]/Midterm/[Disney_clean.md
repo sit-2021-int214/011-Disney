@@ -19,24 +19,25 @@ library(readr)      # A fast and friendly way to read rectangular data
 library(stringr)    # Character manipulation
 ```
 
-#บันทึกลงในตัวแปรใหม่
+#บันทึกลงในตัวแปรใหม่ในกรณีที่ไม่มั่นในในการ 
 ```{R}
 ds <- Disney
 ```
 
 #เพิ่มตารางใหม่ที่เก็บข้อมูลปีที่ปล่อยออกมา
 ```{R} 
-ds$release_year	<- substr(Disney$release_date,1,4)
-View(ds)
+Disney <- Disney
+Disney$release_year	<- substr(Disney$release_date,1,4)
+View(Disney)
 ```
 
 #เรียกดูข้อมูล
 ```{R}
-View(ds)
+View(Disney)
 ```
 
 #ดู types of values
 ```{R}
-glimpse(ds)
+glimpse(Disney)
 ```
-##ไม่มีการปรับเปลี่ยน types of values 
+ไม่มีการปรับเปลี่ยน types of values 
