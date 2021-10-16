@@ -1,5 +1,5 @@
 # 🎯 Disney Dataset
- -  [Dataset from](./) : Dataset from
+ -  [Dataset from](.011-Disney/Term_assignment_[Group]/Midterm/Disney_clean.csv) : Dataset from
 
 ## 📑 Steps
 1. กำหนดหัวข้อที่จะทำ
@@ -34,18 +34,35 @@ View(Disney);
 ```{R}
 Disney %>% filter(total_gross == max(total_gross));
 ```
+#### Result
+```{R}
+
+
+```
 
 # 2. ในแต่ละปีผลิตได้กี่เรื่อง 🍉
 #### Explain here
 ```{R}
 Disney %>% count(release_year);
 ```
+#### Result
+```{R}
+
+
+```
+
 
 # 3. วันที่ออกฉายแต่ละเรื่องในปี2016 🍒
 #### Explain here
 ```{R}
 Disney %>% select(movie_title,release_date,release_year)%>% filter(release_year == "2016");
 ```
+#### Result
+```{R}
+
+
+```
+
 
 # 4. 3อันดับแรกของ disneyแนวเรื่องไหน ที่ผลิตออกมามากที่สุด 🍅
 #### Explain here
@@ -53,11 +70,25 @@ Disney %>% select(movie_title,release_date,release_year)%>% filter(release_year 
 Disney %>% count(genre,sort = TRUE) %>% head(n = 3L);
 ```
 
+#### Result
+```{R}
+
+
+```
+
 # 5. มีประเภทหนังอะไรบ้าง เช่น ดราม่า คอมเมดี้ แอคชั่น 🍆
 #### Explain here
 ```{R}
 Disney %>% group_by(genre) %>% count();
 ```
+
+#### Result
+```{R}
+
+
+```
+
+
  
 # 6. มีเรตหนังอะไรบ้างและมีจำนวนเท่าไหรในแต่หละเรตนั้น 🍎
 #### Explain here
@@ -65,16 +96,36 @@ Disney %>% group_by(genre) %>% count();
 Disney %>% group_by(mpaa_rating) %>% count();
 ```
 
+#### Result
+```{R}
+
+
+```
+
+
+
 # 7. อยากรู้ว่า movie rating R มีเรื่องอะไรบ้าง และเป็นประเภทอะไรบ้าง 🍋
 #### Explain here
 ```{R}
 Disney %>% select(movie_title,mpaa_rating) %>% filter(mpaa_rating == "R");
 ```
 
+#### Result
+```{R}
+
+
+```
+
 # 8. อัตราเงินเฟ้อที่ปรับในขั้นต้นเฉลี่ยของหนังแต่ละประเภท 🍋
 #### Explain here
 ```{R}
 Disney %>% group_by(genre) %>% select(inflation_adjusted_gross) %>% summarise(avg = mean(inflation_adjusted_gross, na.rm = TRUE))
+```
+
+#### Result
+```{R}
+
+
 ```
 
 
