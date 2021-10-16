@@ -19,7 +19,7 @@ This dataset is all about Disney movies with their release dates, genre, rating,
 4. 3อันดับแรกของ disneyแนวเรื่องไหน ที่ผลิตออกมามากที่สุด
 5. มีประเภทหนังอะไรบ้าง เช่น ดราม่า คอมเมดี้ แอคชั่น
 6. มีหนังกี่ประเภทและมีกี่เรื่องที่ฉายในปีนั้น
-7. อยากรู้ว่า movie rating PG มีเรื่องอะไรบ้าง และเป็นประเภทอะไรบ้าง
+7. อยากรู้ว่า movie rating Not Rated มีเรื่องอะไรบ้าง และเป็นประเภทอะไรบ้าง
 8. อัตราเงินเฟ้อที่ปรับในขั้นต้นเฉลี่ยของหนังแต่ละประเภท
 
 
@@ -44,7 +44,7 @@ This dataset is all about Disney movies with their release dates, genre, rating,
 
 ## 📌 Table of Contents
 
-1. [Exploratory Data Analysis](./code_eda.R) : Exploratory Data Analysis
+1. [Exploratory Data Analysis]() : Exploratory Data Analysis
 2. [Data Visualization]
 
 
@@ -53,9 +53,9 @@ This dataset is all about Disney movies with their release dates, genre, rating,
 ##  😮 Resources
 ### 🔗 Important Files in Repository
 
-- [code_eda.R](./code_eda.R) : Exploratory Data Analysis
-- [Disney_original.csv](./products_original.csv): Original Dataset
-- [Disney_clean.csv](./products_original.csv): Clean Dataset
+- [code_eda.R](./011-Disney/Term_assignment_[Group]/Midterm/code_eda.md) : Exploratory Data Analysis
+- [Disney_original.csv](./011-Disney/Term_assignment_[Group]/Midterm/Disney_original.csv): Original Dataset
+- [Disney_clean.csv](./011-Disney/Term_assignment_[Group]/Midterm/Disney_clean.csv): Clean Dataset
 
 
 

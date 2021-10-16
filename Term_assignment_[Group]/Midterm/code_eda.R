@@ -1,5 +1,5 @@
 #Disney Dataset
-# [Dataset from](./) : Dataset from
+# -  [Dataset from](./011-Disney/Term_assignment_[Group]/Midterm/Disney_clean.csv) : Dataset from
 
 #Steps
 #1. กำหนดหัวข้อที่จะทำ
@@ -15,7 +15,7 @@
 #4. 3อันดับแรกของ disneyแนวเรื่องไหน ที่ผลิตออกมามากที่สุด
 #5. มีประเภทหนังอะไรบ้าง เช่น ดราม่า คอมเมดี้ แอคชั่น
 #6. มีเรตหนังอะไรบ้างและมีจำนวนเท่าไหรในแต่หละเรตนั้น
-#7. อยากรู้ว่า movie rating PG มีเรื่องอะไรบ้าง และเป็นประเภทอะไรบ้าง
+#7. อยากรู้ว่า movie rating Not Rated มีเรื่องอะไรบ้าง และเป็นประเภทอะไรบ้าง
 #8. อัตราเงินเฟ้อที่ปรับในขั้นต้นเฉลี่ยของหนังแต่ละประเภท
 
 
@@ -50,9 +50,9 @@ Disney %>% group_by(genre) %>% count();
 #Explain here
 Disney %>% group_by(mpaa_rating) %>% count();
 
-#7. อยากรู้ว่า movie rating R มีเรื่องอะไรบ้าง และเป็นประเภทอะไรบ้าง
+#7. อยากรู้ว่า movie rating Not Rated มีเรื่องอะไรบ้าง และเป็นประเภทอะไรบ้าง
 #Explain here
-Disney %>% select(movie_title,mpaa_rating) %>% filter(mpaa_rating == "R");
+Disney %>% select(movie_title,mpaa_rating) %>% filter(mpaa_rating == "Not Rated");
 
 #8. อัตราเงินเฟ้อที่ปรับในขั้นต้นเฉลี่ยของหนังแต่ละประเภท
 #Explain here
