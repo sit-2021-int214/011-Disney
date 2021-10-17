@@ -36,8 +36,8 @@ Disney %>% filter(total_gross == max(total_gross));
 ```
 #### Result
 ```{R}
- X              movie_title                 release_date       genre     mpaa_rating   total_gross    inflation_adjusted_gross   release_year
-1 565 Star Wars Ep. VII: The Force Awakens   2015-12-18     Adventure       PG-13       936662225              936662225             2015
+                movie_title                 release_date      genre     mpaa_rating    total_gross    inflation_adjusted_gross   release_year
+1 565 Star Wars Ep. VII: The Force Awakens   2015-12-18     Adventure       PG-13       936662225             936662225              2015
 ```
 
 # 2. ปีที่ผลิตหนังได้มากที่สุดและผลิตมาทั้งหมดกี่เรื่อง 🍉
@@ -60,21 +60,21 @@ Disney %>% select(movie_title,release_date,release_year)%>% filter(release_year 
 ```
 #### Result
 ```{R}
-                      movie_title release_date release_year
-1                 The Finest Hours   2016-01-29         2016
-2                         Zootopia   2016-03-04         2016
-3                  The Jungle Book   2016-04-15         2016
-4               A Beautiful Planet   2016-04-29         2016
-5       Captain America: Civil War   2016-05-06         2016
-6  Alice Through the Looking Glass   2016-05-27         2016
-7                     Finding Dory   2016-06-17         2016
-8                          The BFG   2016-07-01         2016
-9                    Pete’s Dragon   2016-08-12         2016
-10        The Light Between Oceans   2016-09-02         2016
-11                  Queen of Katwe   2016-09-23         2016
-12                  Doctor Strange   2016-11-04         2016
-13                           Moana   2016-11-23         2016
-14    Rogue One: A Star Wars Story   2016-12-16         2016
+     movie_title                   release_date    release_year
+1 The Finest Hours                  2016-01-29         2016
+2 Zootopia                          2016-03-04         2016
+3 The Jungle Book                   2016-04-15         2016
+4 A Beautiful Planet                2016-04-29         2016
+5 Captain America: Civil War        2016-05-06         2016
+6 Alice Through the Looking Glass   2016-05-27         2016
+7 Finding Dory                      2016-06-17         2016
+8 The BFG                           2016-07-01         2016
+9 Pete’s Dragon                     2016-08-12         2016
+10 The Light Between Oceans         2016-09-02         2016
+11 Queen of Katwe                   2016-09-23         2016
+12 Doctor Strange                   2016-11-04         2016
+13 Moana                            2016-11-23         2016
+14 ogue One: A Star Wars Story      2016-12-16         2016
 ```
 
 
@@ -85,10 +85,10 @@ Disney %>% count(genre,sort = TRUE) %>% head(n = 3L);
 ```
 #### Result
 ```{R}
-      genre   n
-1    Comedy 182
-2 Adventure 129
-3     Drama 114
+   genre      n
+1 Comedy     182
+2 Adventure  129
+3 Drama      114
 ```
 
 # 5. มีประเภทหนังอะไรบ้าง เช่น ดราม่า คอมเมดี้ แอคชั่น 🍆
@@ -98,10 +98,7 @@ Disney %>% group_by(genre) %>% count();
 ```
 #### Result
 ```{R}
-# A tibble: 13 x 2
-# Groups:   genre [13]
    genre                   n
-   <chr>               <int>
  1 Action                 40
  2 Adventure             129
  3 Black Comedy            3
@@ -125,10 +122,7 @@ Disney %>% group_by(mpaa_rating) %>% count();
 ```
 #### Result
 ```{R}
-# A tibble: 6 x 2
-# Groups:   mpaa_rating [6]
   mpaa_rating     n
-  <chr>       <int>
 1 G              86
 2 Not Rated       3
 3 PG            187
@@ -145,9 +139,9 @@ Disney %>% select(movie_title,mpaa_rating) %>% filter(mpaa_rating == "Not Rated"
 ```
 #### Result
 ```{R}
-              movie_title mpaa_rating
-1              Bon Voyage!   Not Rated
-2          The Jungle Book   Not Rated
+      movie_title           mpaa_rating
+1 Bon Voyage!                Not Rated
+2 The Jungle Book            Not Rated
 3 America's Heart and Soul   Not Rated
 ```
 
@@ -159,9 +153,7 @@ Disney %>% group_by(genre) %>% select(inflation_adjusted_gross) %>% summarise(av
 ```
 #### Result
 ```{R}
-# A tibble: 13 x 2
-   genre                      avg
-   <chr>                    <dbl>
+   genre                  avg
  1 Action              137473420.
  2 Adventure           190397412.
  3 Black Comedy         52243492.
@@ -176,12 +168,5 @@ Disney %>% group_by(genre) %>% select(inflation_adjusted_gross) %>% summarise(av
 12 Western              73815707.
 13 NA                   21623728.
 ```
-
-
-
-
-
-
-
 
 
