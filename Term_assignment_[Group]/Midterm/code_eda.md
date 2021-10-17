@@ -43,8 +43,8 @@ Disney %>% filter(total_gross == max(total_gross));
 # 2. ปีที่ผลิตหนังได้มากที่สุดและผลิตมาทั้งหมดกี่เรื่อง 🍉
 #### Explain here
 ```{R}
-disney <- disney %>% count(release_year);
-disney %>% select(release_year,n) %>% filter(n == max(n));
+Disney <- Disney %>% count(release_year);
+Disney %>% select(release_year,n) %>% filter(n == max(n));
 ```
 #### Result
 ```{R}
