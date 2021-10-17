@@ -36,8 +36,8 @@ Disney %>% filter(total_gross == max(total_gross));
 ```
 #### Result
 ```{R}
- X                          movie_title release_date     genre mpaa_rating total_gross inflation_adjusted_gross release_year
-1 565 Star Wars Ep. VII: The Force Awakens   2015-12-18 Adventure       PG-13   936662225                936662225         2015
+ X              movie_title                 release_date       genre     mpaa_rating   total_gross    inflation_adjusted_gross   release_year
+1 565 Star Wars Ep. VII: The Force Awakens   2015-12-18     Adventure       PG-13       936662225              936662225             2015
 ```
 
 # 2. ปีที่ผลิตหนังได้มากที่สุดและผลิตมาทั้งหมดกี่เรื่อง 🍉
