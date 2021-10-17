@@ -25,7 +25,7 @@
 library(dplyr)
 library(readr)
 #dataset
-Disney <- read.csv("D:/INT214/midterm/Disney_clean.csv");
+Disney <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/011-Disney/main/Term_assignment_%5BGroup%5D/Midterm/Disney_clean.csv");
 View(Disney);
 ```
 
