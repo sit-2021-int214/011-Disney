@@ -5,10 +5,12 @@
 1. กำหนดหัวข้อที่จะทำ
 2. ค้นหาข้อมูล Data จาก Kaggle
 3. ช่วยกันเลือกว่าควรจะเอาชุดข้อมูลไหนจากทั้งหมดที่ได้ค้นหามา
-4. ทำการ Data Cleaning และ Data Transformation ข้อมูลที่ได้เลือกมา
-5. ทำการวิเคราะห์ข้อมูลที่ได้ทำการ Data Cleaning และ Data Transformation 
-# Exploratory Data Analysis
+4. ช่วยกันสำรวจและวิเคราะห์ข้อมูลเบื้องต้นก่อนที่จะไปทำ  Data Cleaning และ Data Transformation
+5. ทำการ Data Cleaning และ Data Transformation ข้อมูลที่ได้เลือกมา
+6. ทำการวิเคราะห์และตั้งคำถามเกี่ยวกับข้อมูลที่ได้ทำการ Data Cleaning และ Data Transformation 
 
+
+# Exploratory Data 
 
 ```{R}
 #library
