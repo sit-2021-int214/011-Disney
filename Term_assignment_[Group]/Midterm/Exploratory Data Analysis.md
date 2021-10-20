@@ -37,6 +37,8 @@ is.na(Disney)
 ```
 ใน dataset นี้ไม่มีค่า null
 
+---
+
 สำรวจข้อมูลเบื้องต้น
 ```{R}
 summary(Disney)
