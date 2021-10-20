@@ -12,6 +12,14 @@ glimpse(Disney);
 ```
 In this dataset has All Disney movies with their release dates, genre, rating, total gross and inflation adjusted gross(2016).
 Disney has produced many movies, this data has all Disney movies till 2016.
+- x (numeric) 
+- movie_title (character) รายชื่อของหนัง
+- release_date (character) วันที่ออกฉาย
+- genre (character) ประเภทของหนัง
+- mpaa_rating (character) เรตของหนัง
+- total_gross (numeric) รายได้ที่หักต้นทุนของหนัง
+- inflation_adjusted_gross (numeric) อัตราเงินเฟ้อ
+- release_year (numeric) ปีที่ออกฉาย
 
 ```{R}
 Rows: 579
