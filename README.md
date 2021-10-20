@@ -44,7 +44,7 @@ This dataset is all about Disney movies with their release dates, genre, rating,
 
 ## 📌 Table of Contents
 
-1. [Exploratory Data Analysis](./Term_assignment_[Group]/Midterm/Exploratory Data Analysis.md) : Exploratory Data Analysis
+1. [Exploratory Data Analysis]() : Exploratory Data Analysis
 2. [Data Visualization]
 
 
