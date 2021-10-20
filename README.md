@@ -26,12 +26,12 @@ This dataset is all about Disney movies with their release dates, genre, rating,
 
 
 ### 📑 Steps
-
 1. กำหนดหัวข้อที่จะทำ
 2. ค้นหาข้อมูล Data จาก Kaggle
-3. ช่วยกันเลือกว่าควรจะเอาข้อมูลชุดไหนจากทั้งหมดที่ได้ค้นหามา
-4. ทำการ Data Cleaning และ Data Transformation ข้อมูลที่ได้เลือกมา
-5. ทำการวิเคราะห์ข้อมูลที่ได้ทำการ Data Cleaning และ Data Transformation 
+3. ช่วยกันเลือกว่าควรจะเอาชุดข้อมูลไหนจากทั้งหมดที่ได้ค้นหามา
+4. ช่วยกันสำรวจและวิเคราะห์ข้อมูลเบื้องต้นก่อนที่จะไปทำ  Data Cleaning และ Data Transformation
+5. ทำการ Data Cleaning และ Data Transformation ข้อมูลที่ได้เลือกมา
+6. ทำการวิเคราะห์และตั้งคำถามเกี่ยวกับข้อมูลที่ได้ทำการ Data Cleaning และ Data Transformation 
 
 
 
@@ -44,7 +44,7 @@ This dataset is all about Disney movies with their release dates, genre, rating,
 
 ## 📌 Table of Contents
 
-1. [Exploratory Data Analysis]() : Exploratory Data Analysis
+1. [Exploratory Data Analysis](./Term_assignment_[Group]/Midterm/Exploratory_Data.md) : Exploratory Data Analysis
 2. [Data Visualization]
 
 
@@ -53,7 +53,8 @@ This dataset is all about Disney movies with their release dates, genre, rating,
 ##  😮 Resources
 ### 🔗 Important Files in Repository
 
-- [code_eda.md](./Term_assignment_[Group]/Midterm/code_eda.md) : Exploratory Data Analysis
+- [code_eda.md](./Term_assignment_[Group]/Midterm/Data_Analysis_with_Descriptive_Statistics.md)         
+  Data_Analysis_with_Descriptive_Statistics 
 - [Disney_original.csv](./Term_assignment_[Group]/Midterm/Disney_original.csv): Original Dataset
 - [Disney_clean.csv](./Term_assignment_[Group]/Midterm/Disney_clean.csv): Clean Dataset
 
