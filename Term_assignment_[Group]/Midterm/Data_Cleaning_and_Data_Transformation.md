@@ -82,7 +82,7 @@ Disney$mpaa_rating <- replace(Disney$mpaa_rating,Disney$mpaa_rating == 'Unknown'
 Disney<- Disney %>% na.omit()
 ```
 
-### การเก็บตัวแปรกรอบข้อมูลด้วยไฟล์นามสกุล csv หลังจากที่ทำการ Data Transformation + Data Cleaning เรียบร้อย 🧐
+### การเก็บตัวแปรกรอบข้อมูลด้วยไฟล์นามสกุลcsvหลังจากที่ทำการ Data Transformation Data Cleaning เรียบร้อย 🧐
 ```{R} 
 str(Disney)
 write.csv(Disney, file ="D:/INT214/midterm/Disney_clean.csv")
