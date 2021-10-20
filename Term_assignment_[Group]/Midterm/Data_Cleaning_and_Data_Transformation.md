@@ -1,20 +1,20 @@
 # Data Transformation + Data Cleaning 📙
-### 1. การอ่านข้อมูลในไฟล์ CSV 🌾
+## 1. การอ่านข้อมูลในไฟล์ CSV 🌾
 
-# ใช้ library 📚
+### ใช้ library 📚
 ```{R}
 library(readr)   # A fast and friendly way to read rectangular data
 ```
 
-# คำสั่งการเรียกดูข้อมูลใน dataset 📊
+### คำสั่งการเรียกดูข้อมูลใน dataset 📊
 ```{R}
 Disney <- read_csv("https://www.dropbox.com/s/xdmajrcuns8pc96/disney_movies.csv?dl=1")
 View(Disney)
 ```
 
-# 2.ทำการ Data Transformation + Data Cleaning 🌾
+## 2.ทำการ Data Transformation + Data Cleaning 🌾
 
-# ใช้ library 📚
+### ใช้ library 📚
 ```{R}
 library(readr)      # A fast and friendly way to read rectangular data
 library(stringr)    # Character manipulation
@@ -22,34 +22,34 @@ library(dplyr)      # dplyr is a grammar of data manipulation, providing a consi
                       that help you solve   the most common data manipulation challenges:
 ```
 
-# เรียกดูข้อมูล 📊
+### เรียกดูข้อมูล 📊
 ```{R}
 View(Disney)
 ```
 
-# ดูรายละเอียดของข้อมูลที่มี 🧐
+### ดูรายละเอียดของข้อมูลที่มี 🧐
 ```{R}
 glimpse(Disney)
 ```
 
-# เพิ่มตารางใหม่ที่เก็บข้อมูลปีที่ปล่อยออกมา 🧐
+### เพิ่มตารางใหม่ที่เก็บข้อมูลปีที่ปล่อยออกมา 🧐
 ```{R} 
 Disney <- Disney
 Disney$release_year	<- substr(Disney$release_date,1,4)
 ``` 
  
-# เปลี่ยน Datatype ของ Column 🧐
+### เปลี่ยน Datatype ของ Column 🧐
 ```{R} 
 Disney$release_year <- as.integer(Disney$release_year)
 ```
 
-# เช็คหา Columns ที่มีค่าซ้ำกัน 🧐
+### เช็คหา Columns ที่มีค่าซ้ำกัน 🧐
 ```{R} 
 Disney %>% duplicated() %>% table()
 Disney <- Disney %>% distinct()
 ```
 
-# เช็ค Datatype ของแต่ละ Column 🧐
+### เช็ค Datatype ของแต่ละ Column 🧐
 ```{R} 
 is.character(Disney$movie_title)
 is.character(Disney$release_date)
@@ -60,7 +60,7 @@ is.double(Disney$ inflation_adjusted_gross)
 is.integer(Disney$ release_year)
 ```
 
-# หาค่า NA ของแต่ละ Columns 🧐
+### หาค่า NA ของแต่ละ Columns 🧐
 ```{R} 
 is.na(Disney$movie_title) %>% sum()
 is.na(Disney$release_date) %>% sum()
@@ -71,7 +71,7 @@ is.na(Disney$ inflation_adjusted_gross) %>% sum()
 is.na(Disney$ release_year) %>% sum()
 ```
 
-# ลบ Columns ทั้งหมดที่มีค่า NA 🧐
+### ลบ Columns ทั้งหมดที่มีค่า NA 🧐
 ```{R} 
 #genre
 Disney$genre <- replace(Disney$genre,Disney$genre == 'Unknown', NA)
@@ -82,7 +82,7 @@ Disney$mpaa_rating <- replace(Disney$mpaa_rating,Disney$mpaa_rating == 'Unknown'
 Disney<- Disney %>% na.omit()
 ```
 
-# การเก็บตัวแปรกรอบข้อมูลด้วยไฟล์นามสกุล csv หลังจากที่ทำการ Data Transformation + Data Cleaning เรียบร้อย 🧐
+### การเก็บตัวแปรกรอบข้อมูลด้วยไฟล์นามสกุล csv หลังจากที่ทำการ Data Transformation + Data Cleaning เรียบร้อย 🧐
 ```{R} 
 str(Disney)
 write.csv(Disney, file ="D:/INT214/midterm/Disney_clean.csv")
