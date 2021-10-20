@@ -43,12 +43,12 @@ summary(Disney)
 Result
 ```
     movie_title         release_date        genre             mpaa_rating        total_gross        inflation_adjusted_gross
- Length:579         Length:579         Length:579         Length:579          Min.   :        0         Min.   :0.000e+00    
- Class :character   Class :character   Class :character   Class :character    1st Qu.: 12788864         1st Qu.:2.274e+07  
- Mode  :character   Mode  :character   Mode  :character   Mode  :character    Median : 30702446         Median :5.516e+07                                            
-                                                                              Mean   : 64701789         Mean   :1.188e+08       
-                                                                              3rd Qu.: 75709033         3rd Qu.:1.192e+08       
-                                                                              Max.   :936662225         Max.   :5.229e+09    
+ Length:579         Length:579         Length:579         Length:579          Min.   :        0         Min.   :0.000e+00
+ Class :character   Class :character   Class :character   Class :character    1st Qu.: 12788864         1st Qu.:2.274e+07
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character    Median : 30702446         Median :5.516e+07
+                                                                              Mean   : 64701789         Mean   :1.188e+08
+                                                                              3rd Qu.: 75709033         3rd Qu.:1.192e+08
+                                                                              Max.   :936662225         Max.   :5.229e+09
 ```
 
 
