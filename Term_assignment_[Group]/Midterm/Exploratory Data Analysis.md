@@ -29,3 +29,28 @@ $ mpaa_rating              <chr> "G", "G", "G", "G", "G", "", "G", "", "G", "", 
 $ total_gross              <int> 184925485, 84300000, 83320000, 65000000, 85000000, 28~
 $ inflation_adjusted_gross <dbl> 5228953251, 2188229052, 2187090808, 1078510579, 92060~
 ```
+---
+
+เช็คว่ามีค่า null ในตัว dataset หรือไม่
+```{R}
+is.na(Disney)
+```
+
+สำรวจข้อมูลเบื้องต้น
+```{R}
+summary(Disney)
+```
+Result
+```
+    movie_title         release_date        genre             mpaa_rating        total_gross        inflation_adjusted_gross
+ Length:579         Length:579         Length:579         Length:579          Min.   :        0         Min.   :0.000e+00    
+ Class :character   Class :character   Class :character   Class :character    1st Qu.: 12788864         1st Qu.:2.274e+07  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character    Median : 30702446         Median :5.516e+07                                            
+                                                                              Mean   : 64701789         Mean   :1.188e+08       
+                                                                              3rd Qu.: 75709033         3rd Qu.:1.192e+08       
+                                                                              Max.   :936662225         Max.   :5.229e+09    
+```
+
+
+
+
