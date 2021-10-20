@@ -11,7 +11,7 @@ Disney <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/011-Disney
 glimpse(Disney);
 ```
 In this dataset has All Disney movies with their release dates, genre, rating, total gross and inflation adjusted gross(2016).
-Disney has produced many movies, this data has all Disney movies till 2016.
+Disney has produced many movies, this data has all Disney movies till 2016. Inside that dataset has 579 rows 8 column.
 - x (numeric) 
 - movie_title (character) รายชื่อของหนัง
 - release_date (character) วันที่ออกฉาย
