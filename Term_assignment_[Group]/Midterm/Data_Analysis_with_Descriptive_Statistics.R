@@ -1,12 +1,4 @@
 #Disney Dataset
-# -  [./Disney_clean.csv) : Dataset from
-
-#Steps
-#1. กำหนดหัวข้อที่จะทำ
-#2. ค้นหาข้อมูล Data จาก Kaggle
-#3. ช่วยกันเลือกว่าควรจะเอาชุดข้อมูลไหนจากทั้งหมดที่ได้ค้นหามา
-#4. ทำการ Data Cleaning และ Data Transformation ข้อมูลที่ได้เลือกมา
-#5. ทำการวิเคราะห์ข้อมูลที่ได้ทำการ Data Cleaning และ Data Transformation 
  
 #Define a question
 #1. เรื่องที่ทำรายได้มากที่สุด
