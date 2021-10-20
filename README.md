@@ -44,7 +44,7 @@ This dataset is all about Disney movies with their release dates, genre, rating,
 
 ## 📌 Table of Contents
 
-1. [Exploratory Data Analysis](./Term_assignment_[Group]/Midterm/Exploratory_Data .md) : Exploratory Data Analysis
+1. [Exploratory Data Analysis](./Term_assignment_[Group]/Midterm/Exploratory_Data.md) : Exploratory Data Analysis
 2. [Data Visualization]
 
 
@@ -56,13 +56,13 @@ This dataset is all about Disney movies with their release dates, genre, rating,
 - [Data Analysis_Descriptive Statistics.md](./Term_assignment_[Group]/Midterm/Data_Analysis_with_Descriptive_Statistics.md)         
   Data Analysis_Descriptive Statistics
   
-- [Data Analysis_Descriptive Statistics.r](./Term_assignment_[Group]/Midterm/Data_Analysis_with_Descriptive_Statistics.r)         
+- [Data Analysis_Descriptive Statistics.r](./Term_assignment_[Group]/Midterm/Data_Analysis_with_Descriptive_Statistics.R)         
   Data Analysis_Descriptive Statistics 
 
 - [Data Cleaning_Data Transformation.md](./Term_assignment_[Group]/Midterm/Data_Cleaning_and_Data_Transformation.md)         
   Data Analysis_Descriptive Statistics
 
-- [Data Cleaning_Data Transformation.r](./Term_assignment_[Group]/Midterm/Data_Cleaning_and_Data_Transformation.r)         
+- [Data Cleaning_Data Transformation.r](./Term_assignment_[Group]/Midterm/Data_Cleaning_and_Data_Transformation.R)         
   Data Analysis_Descriptive Statistics
 
 - [Disney_original.csv](./Term_assignment_[Group]/Midterm/Disney_original.csv): Original Dataset
