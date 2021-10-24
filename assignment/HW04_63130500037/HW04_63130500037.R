@@ -101,7 +101,7 @@ library(tidyr)
 library(ggplot2)
 library(dplyr)
 
-#สร้างกราฟแท่งเพื่อแสดงค่าเฉลี่ยของหนังสือแต่ละประเภท
+#สร้างกราฟเส้นเพื่อแสดงค่าเฉลี่ยของหนังสือแต่ละประเภท
 topbooks_avg <- topbooks %>% group_by(Type) %>% select(Price) %>% 
 summarise(avg = mean(Price, na.rm = TRUE)) 
 #GGplot2
@@ -113,7 +113,7 @@ summarise(avg = mean(Price, na.rm = TRUE))
   xlab("Type of books") + 
   ylab("average") 
   
-#สร้างกราฟวงกลมเพื่อแสดงจะนวนหนังสือที่อยู่ในแต่ละประเภท
+#สร้างกราฟแท่งเพื่อแสดงจะนวนหนังสือที่อยู่ในแต่ละประเภท
   number_of_books <- topbooks %>% select(Type) %>% 
   count(Type,sort = FALSE)
 #GGplot2
