@@ -113,7 +113,7 @@ summarise(avg = mean(Price, na.rm = TRUE))
   xlab("Type of books") + 
   ylab("average") 
   
-#สร้างกราฟแท่งเพื่อแสดงจะนวนหนังสือที่อยู่ในแต่ละประเภท
+#สร้างกราฟแท่งเพื่อแสดงจำนวนหนังสือที่อยู่ในแต่ละประเภท
   number_of_books <- topbooks %>% select(Type) %>% 
   count(Type,sort = FALSE)
 #GGplot2
