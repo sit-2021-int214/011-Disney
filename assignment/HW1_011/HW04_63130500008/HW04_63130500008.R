@@ -53,12 +53,12 @@ books %>% group_by(Type) %>%
 summarise(count =n(),
           Price_max = max(Price)); 
 
-#
+
 books %>% 
   filter(Rating >4.5 & Reviews !=0)
 
 
-#rating review
+
 book_summary <- books%>% select(Rating,Reviews,Price,Type);
 
 
