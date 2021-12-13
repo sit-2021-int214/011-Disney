@@ -48,7 +48,7 @@ This dataset is all about Disney movies with their release dates, genre, rating,
  Exploratory Data Analysis
 2. [Data Analysis_Descriptive Statistics](./Term_assignment_[Group]/Midterm/Data_Analysis_with_Descriptive_Statistics.md) 
 Data Analysis_Descriptive Statistics
-3. - [Data Cleaning_Data Transformation](./Term_assignment_[Group]/Midterm/Data_Cleaning_and_Data_Transformation.md) 
+3. [Data Cleaning_Data Transformation](./Term_assignment_[Group]/Midterm/Data_Cleaning_and_Data_Transformation.md) 
  Data Analysis_Descriptive Statistics
 ### Final 🔗
 1. [Data Visualization](https://app.powerbi.com/view?r=eyJrIjoiZjExODg4MDUtNjE5Zi00OGZjLThkNzktMjIxYjA0ZmFlYTkxIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection)
