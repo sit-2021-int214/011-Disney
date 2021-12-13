@@ -6,11 +6,19 @@ library(readr)
 Disney <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/011-Disney/main/Term_assignment_%5BGroup%5D/Midterm/Disney_clean.csv");
 View(Disney);
 
+#ข้อมูลหาจาก
+#จำนวนหนังทั้งหมดที่เป็นแนว Adventure
+Disney %>% group_by(genre) %>% count() 
+#รายได้เฉลี่ยของหนังทั้งหมด
+Disney %>%  summarise(avg = mean(total_gross, na.rm = TRUE)) 
+#ส่วนเบี่ยงเบนมาตราฐาน
+Disney  %>% summarise(stdev.s = mean(total_gross, na.rm = TRUE))
+
 
 # Step 1. Assign variables:
-n <- 79
-sd <- 96770912.72
-xbar <- 71308506.64
+n <- 119
+sd <- 71308507
+xbar <- 71308507
 u0 <- 80000000
 
 # Step 2 State the hypothesis
@@ -22,7 +30,6 @@ alpha <- 0.05
 
 # Step 4 Select Test statistic (This formula for one population)
 z/t <- (xbar - u0) / (sd/sqrt(n))
-z <- (pbar-p0) / sqrt((p0*(1-p0))/n)
 
 
 # Step 5 Finding P-value approach or Critical Value approach
