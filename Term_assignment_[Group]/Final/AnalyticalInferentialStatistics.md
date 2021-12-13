@@ -114,9 +114,8 @@ z/t <- -1.329617
 # P-value approach
 pvalue <- pnorm(z); pvalue
 ```
-
-```{R}
 Result
+```{R}
 pvalue <- 0.09182227
 ```
 ```{R}
