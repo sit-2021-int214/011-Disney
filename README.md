@@ -64,9 +64,6 @@ Analytical Inferential Statistics
 - [Exploratory Data.md](./Term_assignment_[Group]/Midterm/Exploratory_Data.md) 
  Exploratory Data Analysis
 
-- [Exploratory Data.R](./Term_assignment_[Group]/Midterm/Exploratory_Data.R) 
- Exploratory Data Analysis
-
 - [Data Analysis_Descriptive Statistics.md](./Term_assignment_[Group]/Midterm/Data_Analysis_with_Descriptive_Statistics.md)         
   Data Analysis_Descriptive Statistics
   
