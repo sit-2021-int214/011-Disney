@@ -126,7 +126,6 @@ Result
 zalpha <- -1.644854
 ```
 
-
 ##  6. Compare P-value with alpha or z/t with zalpha/talpha 
 ```{R}
 # Using p-value approach
