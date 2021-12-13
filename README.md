@@ -61,33 +61,26 @@ Analytical Inferential Statistics
 ##  😮 Resources
 ### 🔗 Important Files in Repository
 ### Midterm 🔗
-- [Exploratory Data.md](./Term_assignment_[Group]/Midterm/Exploratory_Data.md) 
- Exploratory Data Analysis
+- [Exploratory Data.md](./Term_assignment_[Group]/Midterm/Exploratory_Data.md) Exploratory Data Analysis
 
-- [Data Analysis_Descriptive Statistics.md](./Term_assignment_[Group]/Midterm/Data_Analysis_with_Descriptive_Statistics.md)         
-  Data Analysis_Descriptive Statistics
+- [Data Analysis_Descriptive Statistics.md](./Term_assignment_[Group]/Midterm/Data_Analysis_with_Descriptive_Statistics.md) Data Analysis_Descriptive Statistics
   
-- [Data Analysis_Descriptive Statistics.R](./Term_assignment_[Group]/Midterm/Data_Analysis_with_Descriptive_Statistics.R)         
-  Data Analysis_Descriptive Statistics 
+- [Data Analysis_Descriptive Statistics.R](./Term_assignment_[Group]/Midterm/Data_Analysis_with_Descriptive_Statistics.R)   Data Analysis_Descriptive Statistics 
 
-- [Data Cleaning_Data Transformation.md](./Term_assignment_[Group]/Midterm/Data_Cleaning_and_Data_Transformation.md)         
-  Data Cleaning_Data Transformation
+- [Data Cleaning_Data Transformation.md](./Term_assignment_[Group]/Midterm/Data_Cleaning_and_Data_Transformation.md) Data Cleaning_Data Transformation
 
-- [Data Cleaning_Data Transformation.R](./Term_assignment_[Group]/Midterm/Data_Cleaning_and_Data_Transformation.R)         
-  Data Cleaning_Data Transformation
+- [Data Cleaning_Data Transformation.R](./Term_assignment_[Group]/Midterm/Data_Cleaning_and_Data_Transformation.R)  Data Cleaning_Data Transformation
 
-- [Disney_original.csv](./Term_assignment_[Group]/Midterm/Disney_original.csv): Original Dataset
+- [Disney_original.csv](./Term_assignment_[Group]/Midterm/Disney_original.csv) Original Dataset
 
-- [Disney_clean.csv](./Term_assignment_[Group]/Midterm/Disney_clean.csv): Clean Dataset
+- [Disney_clean.csv](./Term_assignment_[Group]/Midterm/Disney_clean.csv) Clean Dataset
 
 ### Final 🔗
 - [Data Visualization.md](./Term_assignment_[Group]/Final/DataVisualization.md) Data Visualization
 
-- [Analytical Inferential Statistics.md](./Term_assignment_[Group]/Final/AnalyticalInferentialStatistics.md) 
-Analytical Inferential Statistics 
+- [Analytical Inferential Statistics.md](./Term_assignment_[Group]/Final/AnalyticalInferentialStatistics.md) Analytical Inferential Statistics 
 
-[Analytical Inferential Statistics.R](./Term_assignment_[Group]/Final/AnalyticalInferentialStatistics.R) 
-Analytical Inferential Statistics 
+- [Analytical Inferential Statistics.R](./Term_assignment_[Group]/Final/AnalyticalInferentialStatistics.R) Analytical Inferential Statistics 
 
 
 
