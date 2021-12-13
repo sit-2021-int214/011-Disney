@@ -1,0 +1,5 @@
+# 🎯 Disney Dataset
+## 📌Data Visualization
+https://app.powerbi.com/view?r=eyJrIjoiZjExODg4MDUtNjE5Zi00OGZjLThkNzktMjIxYjA0ZmFlYTkxIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection
+
+![image info](https://0fa3f547-a-62cb3a1a-s-sites.googlegroups.com/site/disneyclub1616101/2-wa/Disney_Wallpaper_by_xuigen.jpg?attachauth=ANoY7cqjPoRRTQU8ELIaM9Ij97hObB2O-VaG1mJYT405vjBYQf-8wFU8LR7P4irGjVHBUdNtkxzEVdVk8nHuRBEI8Fk9ojbe3r1g8_qDRmnP1C3-EjaQMM1PXeLAxOdOBbNvDFtOlAags51Wim_zIMLmKujmOsKuQ6c4utbhYm_1USWg1PxUZA_RfBsXDfmu_mETfefhAOxY53lq5aKtQYIE2LDwAH49hQ4XBN9bsOF6yNq6ejChtrlMea6fnf_Wb_bl2FfdF73I&attredirects=0)
