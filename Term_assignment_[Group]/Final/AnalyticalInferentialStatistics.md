@@ -113,17 +113,13 @@ z/t <- -1.329617
 ```{R}
 # P-value approach
 pvalue <- pnorm(z); pvalue
-```
-Result
-```{R}
-pvalue <- 0.09182227
-```
-```{R}
+
 # Critical Value approach
 zalpha <- qnorm(alpha);zalpha
 ```
 Result
 ```{R}
+pvalue <- 0.09182227
 zalpha <- -1.644854
 ```
 
