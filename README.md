@@ -49,19 +49,23 @@ This dataset is all about Disney movies with their release dates, genre, rating,
 2. [Data Analysis_Descriptive Statistics](./Term_assignment_[Group]/Midterm/Data_Analysis_with_Descriptive_Statistics.md) 
 Data Analysis_Descriptive Statistics
 3. [Data Cleaning_Data Transformation](./Term_assignment_[Group]/Midterm/Data_Cleaning_and_Data_Transformation.md) 
- Data Analysis_Descriptive Statistics
+ Data Cleaning_Data Transformation
 ### Final 🔗
 1. [Data Visualization](https://app.powerbi.com/view?r=eyJrIjoiZjExODg4MDUtNjE5Zi00OGZjLThkNzktMjIxYjA0ZmFlYTkxIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection)
 Data Visualization
-2. [Analytical Inferential Statistics](./Term_assignment_[Group]/Final/DataVisualization.md) 
+2. [Analytical Inferential Statistics](./Term_assignment_[Group]/Final/AnalyticalInferentialStatistics.md) 
 Analytical Inferential Statistics 
-
-
 
 
 
 ##  😮 Resources
 ### 🔗 Important Files in Repository
+### Midterm 🔗
+- [Exploratory Data.md](./Term_assignment_[Group]/Midterm/Exploratory_Data.md) 
+ Exploratory Data Analysis
+
+- [Exploratory Data.R](./Term_assignment_[Group]/Midterm/Exploratory_Data.R) 
+ Exploratory Data Analysis
 
 - [Data Analysis_Descriptive Statistics.md](./Term_assignment_[Group]/Midterm/Data_Analysis_with_Descriptive_Statistics.md)         
   Data Analysis_Descriptive Statistics
@@ -70,14 +74,23 @@ Analytical Inferential Statistics
   Data Analysis_Descriptive Statistics 
 
 - [Data Cleaning_Data Transformation.md](./Term_assignment_[Group]/Midterm/Data_Cleaning_and_Data_Transformation.md)         
-  Data Analysis_Descriptive Statistics
+  Data Cleaning_Data Transformation
 
 - [Data Cleaning_Data Transformation.R](./Term_assignment_[Group]/Midterm/Data_Cleaning_and_Data_Transformation.R)         
-  Data Analysis_Descriptive Statistics
+  Data Cleaning_Data Transformation
 
 - [Disney_original.csv](./Term_assignment_[Group]/Midterm/Disney_original.csv): Original Dataset
 
 - [Disney_clean.csv](./Term_assignment_[Group]/Midterm/Disney_clean.csv): Clean Dataset
+
+### Final 🔗
+- [Data Visualization.md](./Term_assignment_[Group]/Final/DataVisualization.md) Data Visualization
+
+- [Analytical Inferential Statistics.md](./Term_assignment_[Group]/Final/AnalyticalInferentialStatistics.md) 
+Analytical Inferential Statistics 
+
+[Analytical Inferential Statistics.R](./Term_assignment_[Group]/Final/AnalyticalInferentialStatistics.R) 
+Analytical Inferential Statistics 
 
 
 
