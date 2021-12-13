@@ -21,10 +21,10 @@ disney เป็นค่ายภาพยนตร์ที่ผลิตภ�
     ```
 5. Finding P-value approach or Critical Value approach
     ```{R}
-    P-value for Z:    `pvalue <- pnorm(z) `
-    Critical Value for Z:   ` zalpha <- qnorm(alpha) `
-    P-value for T:   `{R} pvalue <- pt(q, df,lower.tail = TRUE) `
-    talpha for T:    `{R}talpha <- qt(p, df, lower.tail = TRUE) `
+    P-value for Z:  pvalue <- pnorm(z)
+    Critical Value for Z:  zalpha <- qnorm(alpha)
+    P-value for T: pvalue <- pt(q, df,lower.tail = TRUE)
+    talpha for T: talpha <- qt(p, df, lower.tail = TRUE)
    ```
 6. Compare P-value with alpha or z/t with zalpha/talpha
 7. Conclusion
