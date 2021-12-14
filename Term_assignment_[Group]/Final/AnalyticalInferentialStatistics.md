@@ -72,12 +72,12 @@ Result
 ```
 3. ส่วนเบี่ยงเบนมาตราฐาน
 ```{R}
-Disney  %>% summarise(stdev.s = mean(total_gross, na.rm = TRUE))
+Disney  %>% summarise(stdev.s = sd(total_gross, na.rm = TRUE))
 ```
 Result
 ```{R}
    stdev.s
-  71308507
+  96770913
 ```
 
 ## Step 1. Assign variables: 
@@ -105,7 +105,7 @@ z/t <- (xbar - u0) / (sd/sqrt(n))
 ```
 Result
 ```{R}
-z/t <- -1.329617
+z/t <- -0.9797675
 ```
 
 
@@ -119,7 +119,7 @@ zalpha <- qnorm(alpha);zalpha
 ```
 Result
 ```{R}
-pvalue <- 0.09182227
+pvalue <- 0.1636005
 zalpha <- -1.644854
 ```
 
